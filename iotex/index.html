@@ -32,10 +32,12 @@
     <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div>
                     <div class="banner-content">
-                        <h2>IOTEX</h2>
-                        <ul class="buttons">
+                        <h6>Define the new era's tech-charity, make the world a better place</h6>
+                        <img class="logo1" src="./img/logo1.svg" />
+                        <img class="logo2" src="./img/logo2.png" />
+                        <!-- <ul class="buttons">
                             <li>
                                 <div class="primary-button">
                                     <a href="https://iotex.io/">IoTeX主页</a>
@@ -46,7 +48,7 @@
                                     <a href="https://iotex.io/white-paper">LoTeX白皮书</a>
                                 </div>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -54,56 +56,60 @@
     </div>
 
 
-    <div class="intro">
+    <!-- <div class="intro">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4>关于IoTeX</h4>
-                    <p id="introduce">IoTeX是为物联网度身定制的区块链底层公链，致力于以轻量级、私密性和易扩展的颠覆式区块链底层技术，构建支持物联网应用的下一代区块链平台。</p>
+                    <p id="introduce">DoraHacks deliver this announcement that IoTeX has just become DoraHacks' new partner, and would cooperate together to build a wonderful world with technology.</p>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <section id="about" class="page-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="service-item first-service">
-                        <div class="icon">
-                            <img src="img/first-service-icon.png" alt="">
-                        </div>
-                        <h4>技术团队</h4>
-                        <p>来自全球的密码学和机器学习领域博士、尖端区块链工程师、应用程序开发人员与生态系统建设专家组成了IoTeX团队，在业内引领多个领域的研究和发展。</p>
+                        <h4>HAND IN HAND</h4>
+                        <p>DoraHacks deliver this announcement that IoTeX has just become DoraHacks' new partner, and would
+                            cooperate together to build a wonderful world with technology.</p>
+                        <span class="line"></span>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-12">
                     <div class="service-item second-service">
-                        <div class="icon">
-                            <img src="img/second-service-icon.png" alt="">
-                        </div>
-                        <h4>研究领域</h4>
-                        <p>IoTeX以精巧的链中链结构、快速的Roll-DPoS共识机制、将bulletproofs技术、环签名、地址隐藏技术融于一体的前沿隐私保护机制为着眼点，不断推动区块链3.0的拓展。</p>
+                        <h4>donate ETH to the future</h4>
+                        <p>IoTeX support DoraHacks‘s mission with donations from their community. And IoTex provide mentorship
+                            and advisory to DoraHackers in several ways.</p>
+                        <span class="line"></span>                            
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-12">
                     <div class="service-item third-service">
-                        <div class="icon">
-                            <img src="img/third-service-icon.png" alt="">
-                        </div>
-                        <h4>技术创新</h4>
-                        <p>IoTeX基于团队强大的学术专业背景，以及对于技术创新的坚持，IoTeX成为该领域的先行者。了解更多IoTeX的信息，请关注IoTeX网站及白皮书。</p>
+                        <h4>ETH address</h4>
+                        <p>Here is the ETH address for supporting DoraHacks program.</p>
+                        <br>
+                        <p>Wallet address：</p>
+                        <p style="color:#F26F21;word-wrap:break-word; word-break:break-all;">0x4937b01fdff0A02cC8416b5bd6C76a98958C85F1</p>
+                        <span class="line"></span>                        
                     </div>
                 </div>
+
+                <div class="col-md-12">
+                    <div class="service-item forth-service">
+                        <h4>LEARN MORE</h4>
+                        <button class="but" onclick="window.location.href='https://iotex.io/'">IOTEX</button>
+                        <button class="but" onclick="window.location.href='https://medium.com/iotex/iotex-charity-program-ii-dorahacks-b5828a4c5681'">MEDIUM BLOG</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-
-    <footer>
-        <img class="logo" src="./img/logo1.svg" />
-        <img class="logo" src="./img/logo2.svg" />
-    </footer>
 
     <div id="particles-js"></div>
 
@@ -131,22 +137,22 @@
         /* @params: set the params [object, optional, default values : check particles.js] */
 
         /* config dom id (optional) + config particles params */
-        var nb = document.body.clientWidth / 20;
+        var nb = document.body.clientWidth / 15;
 
         particlesJS('particles-js', {
             particles: {
-                color: '#fff',
+                color: '#F26F21',
                 shape: 'circle', // "circle", "edge" or "triangle"
-                opacity: 0.75,
-                size: 4,
+                opacity: 1,
+                size: 2,
                 size_random: true,
                 nb: nb,
                 line_linked: {
-                    enable_auto: true,
+                    enable_auto: false,
                     distance: 100,
-                    color: '#fff',
-                    opacity: 0.75,
-                    width: 1,
+                    color: '#F26F21',
+                    opacity: 0,
+                    width: 0,
                     condensed_mode: {
                         enable: false,
                         rotateX: 600,
@@ -159,7 +165,7 @@
                 }
             },
             interactivity: {
-                enable: true,
+                enable: false,
                 mouse: {
                     distance: 250
                 },

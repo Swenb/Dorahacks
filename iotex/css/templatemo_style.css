@@ -222,16 +222,17 @@ p {
 
 .banner-content {
   text-align: center;
-  padding: 280px 0px 200px 0px;
+  padding: 240px 0px 200px 0px;
 }
 
 .banner-content h6 {
   font-size: 18px;
   color: #fff;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
+  line-height: 40px;
 }
 
 .banner-content h2 {
@@ -257,7 +258,7 @@ p {
 
 
 .intro {
-  background-color: #363e50;
+  background-color: #222222;
   text-align: center;
   padding: 80px 0px;
 }
@@ -295,8 +296,8 @@ p {
 #about .service-item {
   text-align: center;
   margin: 0px -15px;
-  padding: 120px 45px;
-  min-height: 560px;
+  background-color: rgba(34, 34, 34, 0.75);
+  padding: 40px 45px 70px 45px;
 }
 
 #about .service-item h4 {
@@ -304,8 +305,8 @@ p {
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: 700;
-  color: #fff;
   text-transform: uppercase;
+  color: #F26F21
 }
 
 #about .service-item p {
@@ -314,15 +315,18 @@ p {
 }
 
 #about .first-service {
-  background-color: rgba(242, 116, 95, 0.75);
+
 }
 
 #about .second-service {
-  background-color: rgba(54, 62, 80, 0.75);
+
+  /* background-color: rgba(0, 219, 182, 0.75); */
 }
 
 #about .third-service {
-  background-color: rgba(70, 186, 226, 0.75);
+
+  /* background-color: rgba(242, 111, 13, 0.75); */
+  
 }
 
 #about .service-item .icon {
@@ -968,17 +972,6 @@ footer .back-to-top i {
   line-height: 30px;
 }
 
-@media screen and (max-width:400px) {
-  #introduce {
-    font-size: 16px;
-    color: #fff;
-  }
-  .banner-content {
-    text-align: center;
-    padding: 200px 0px 200px 0px;
-  }
-}
-
 footer {
   text-align: center;
 }
@@ -991,10 +984,55 @@ footer {
   width: 100%;
 }
 
-.logo {
+.logo1 {
   margin: 10px;
-  height: 80px;
+  height: 100px;
   width: auto;
+}
+
+.logo2 {
+  margin: 10px;
+  height: 75px;
+  width: auto;
+}
+
+
+@media screen and (max-width:400px) {
+  #introduce {
+    font-size: 16px;
+    color: #fff;
+  }
+  .banner-content {
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+  }
+  .logo1 {
+    margin: 10px;
+    height: 50px;
+    width: auto;
+  }
+  .logo2 {
+    margin: 10px;
+    height: 40px;
+    width: auto;
+  }
+}
+
+.but {
+  padding: 5px 20px;
+  background-color: rgba(242, 111, 33, 0.75);
+  color: #fff;
+  border: none;
+  margin: 0 10px 0 10px;
+}
+
+.line {
+  border-top: 1px solid #F26F21;
+  opacity: 0.75;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  top: 60px;
 }
 
 @include keyframes(slbOverlay) {
